@@ -7,6 +7,7 @@ export async function getServerSideProps({res}) {
 		data: {
 			dateStr: (new Date()).toISOString()
 		}
+
 	  },
 	}
   }
